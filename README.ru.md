@@ -2,63 +2,55 @@
   <a href="README.md">🇬🇧 <b>In English</b></a>
 </div>
 
-### Привет, я Якуп 👋
+### Привет, я Yakup 👋
 
-Я **Python Full Stack разработчик**, специализирующийся на создании комплексных веб-решений для бизнеса.
-Сочетаю сильную алгоритмическую базу (призер Олимпиад по информатике) с практическим опытом в **E-commerce**, **автоматизации** и **сложных системных интеграциях**.
+Я **бэкенд-разработчик (Python)**, собираю веб-сервисы целиком и до продакшена — REST API, интеграции с платёжными и корпоративными системами, асинхронные пайплайны и ML-функциональность. Спокойно веду фичу от схемы БД до развёртывания в Docker.
 
-В данный момент завершаю стажировку в Китае (Big Data Analysis). Открыт для предложений (Full-time).
+Сильная алгоритмическая база из спортивного программирования + ~2.5 года коммерческого опыта в **e-commerce, автоматизации и сложных системных интеграциях**.
+
+🎓 Выпускаюсь в 2026 — бакалавр по прикладной информатике (с отличием).
+🌍 **Открыт к бэкенд-вакансиям в ЕС и к релокации.**
+
+🥈 2-е место — Национальная олимпиада по информатике Туркменистана (2019) · 🌐 IOI 2019, сборная Туркменистана · 🧩 четвертьфиналист ICPC 2023
 
 ---
 
-### 🛠 Технический стек
+### 🛠 Технологии
 
-**Backend:**
+**Бэкенд:**
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-4.0+-092E20?style=flat&logo=django&logoColor=white)
+![Django](https://img.shields.io/badge/Django-DRF-092E20?style=flat&logo=django&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-High_Performance-005571?style=flat&logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Complex_Queries-336791?style=flat&logo=postgresql&logoColor=white)
 
-**Frontend:**
+**Фронтенд:**
 ![React](https://img.shields.io/badge/React-Hooks_&_Components-61DAFB?style=flat&logo=react&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/Vue.js-Framework-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-![JS](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-**Интеграции и DevOps:**
+**Асинхронность, инфраструктура и интеграции:**
+![Celery](https://img.shields.io/badge/Celery-Redis-37814A?style=flat&logo=celery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-Event_Streaming-231F20?style=flat&logo=apachekafka)
 ![1C](https://img.shields.io/badge/Integration-1C_Enterprise-yellow?style=flat)
 ![AmoCRM](https://img.shields.io/badge/Integration-AmoCRM-blue?style=flat)
-![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=flat&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-Caching-DC382D?style=flat&logo=redis&logoColor=white)
 
 ---
 
-### 🚀 Избранные проекты
-
-#### 💼 Коммерческая разработка и Фриланс (Full Stack)
+### 🚀 Проекты
 
 | Проект | Роль | Описание | Стек |
 | :--- | :--- | :--- | :--- |
-| [**Fish2Biz B2B Platform**](https://github.com/imallakov/fish2biz) | **Full Stack** | Оптовая E-commerce платформа. Реализована **двусторонняя синхронизация с 1С:Предприятие** (товары/остатки) и генерация лидов через **интеграцию с AmoCRM**. | `Django` `React` `1C` `AmoCRM` |
-| [**FillCamp Booking System**](https://github.com/imallakov/fillcamp) | **Full Stack** | Платформа для бронирования лагерей с **мощной кастомной Админ-панелью (CRM)**. Полное управление партнерами, лагерями, пользователями и статусами бронирования. | `Django` `DRF` `React` `Admin` |
-| [**Ad Telegram Bot**](https://github.com/imallakov/finished_telegram_advert_bot) | **Backend** | Коммерческий бот для управления рекламными кампаниями. Включает **интеграцию платежных шлюзов** и автоматические воронки продаж. | `Aiogram` `PostgreSQL` `Payments` |
-
-#### ⚙️ Инженерия и Алгоритмы
-
-| Проект | Фокус | Описание | Стек |
-| :--- | :--- | :--- | :--- |
-| [**Restaurant Booking API**](https://github.com/imallakov/restaurant-booking) | **Архитектура** | Надежный REST API для бронирования столиков. Обработка конкурентных запросов, конфликтов расписания и уведомлений. Архитектура похожа на **системы записи к врачу**. | `FastAPI` `SQLAlchemy` `Alembic` `Docker` |
-| [**Traffic Detector Backend**](https://github.com/imallakov/TrafficDetectorBackend) | **AI/High Load** | Бэкенд-сервис для видеоаналитики с ИИ. Обрабатывает потоки данных с камер для мониторинга трафика. | `Python` `API` `Data Processing` |
-| [**Financial Report ETL**](https://github.com/imallakov/FinancialReportETL) | **Data** | Автоматизированный ETL-пайплайн. Извлекает финансовые данные, трансформирует их и генерирует аналитические отчеты. | `Pandas` `ETL` `Python` |
+| [**🏃 EnduranceAI**](https://github.com/imallakov/EnduranceAI) | **Full Stack / ML** | Умное предсказание времени марафона и **адаптивное планирование тренировок**. Ансамбль (Ridge + XGBoost) на ~499k записей забегов; Strava OAuth2 + webhooks; профиль трассы по Minetti, погодные и нагрузочные фичи. Выросло из дипломной работы. | `Django` `DRF` `Celery` `React` `XGBoost` |
+| [**🚦 TrafficDetector**](https://github.com/imallakov/TrafficDetectorBackend) | **Backend** | Микросервисный бэкенд для детекции трафика по видео. Независимые сервисы **auth / video / ML / statistics**, БД на каждый сервис, событийная шина **Kafka**, полностью в Docker. | `Python` `Microservices` `Kafka` `Docker` |
+| [**🏕 FillCamp**](https://github.com/imallakov/fillcamp) | **Full Stack** | Двусторонний маркетплейс бронирования детских лагерей с мощной кастомной админкой/CRM (партнёры, лагеря, брони, статусы). В продакшене. | `Django` `DRF` `React` |
+| [**🐟 Fish2Biz**](https://github.com/imallakov/fish2biz) | **Full Stack** | Оптовая B2B e-commerce платформа с **двусторонней синхронизацией с 1С:Предприятие** (товары/остатки) и лидогенерацией через **AmoCRM**. | `Django` `React` `1C` `AmoCRM` |
+| [**🍽 Restaurant Reservation API**](https://github.com/imallakov/restaurant-booking) | **Backend** | REST-сервис бронирования столиков с валидацией пересечений, миграциями и тестами. | `FastAPI` `PostgreSQL` `Docker` |
 
 ---
 
-### 📈 Статистика GitHub
-
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=imallakov&show_icons=true&theme=radical&hide_border=true" alt="imallakov github stats" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imallakov&layout=compact&theme=radical&hide_border=true" alt="top langs" height="150" />
-</p>
-
 ### 📫 Контакты
-*   **Email:** allakov02@yandex.ru
-*   **LinkedIn:** [linkedin.com/in/imallakov](https://linkedin.com/in/imallakov)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-imallakov-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imallakov)
+[![Telegram](https://img.shields.io/badge/Telegram-@imallakov-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/imallakov)
+[![Email](https://img.shields.io/badge/Email-allakov02@yandex.ru-D14836?style=flat&logo=gmail&logoColor=white)](mailto:allakov02@yandex.ru)
