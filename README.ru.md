@@ -43,8 +43,8 @@
 | :--- | :--- | :--- | :--- |
 | [**🏃 EnduranceAI**](https://github.com/imallakov/EnduranceAI) | **Full Stack / ML** | Умное предсказание времени марафона и **адаптивное планирование тренировок**. Ансамбль (Ridge + XGBoost) на ~499k записей забегов; Strava OAuth2 + webhooks; профиль трассы по Minetti, погодные и нагрузочные фичи. Выросло из дипломной работы. | `Django` `DRF` `Celery` `React` `XGBoost` |
 | [**🚦 TrafficDetector**](https://github.com/imallakov/TrafficDetectorBackend) | **Backend** | Микросервисный бэкенд для детекции трафика по видео. Независимые сервисы **auth / video / ML / statistics**, БД на каждый сервис, событийная шина **Kafka**, полностью в Docker. | `Python` `Microservices` `Kafka` `Docker` |
-| [**🏕 FillCamp**](https://github.com/imallakov/fillcamp) | **Full Stack** | Двусторонний маркетплейс бронирования детских лагерей с мощной кастомной админкой/CRM (партнёры, лагеря, брони, статусы). В продакшене. | `Django` `DRF` `React` |
-| [**🐟 Fish2Biz**](https://github.com/imallakov/fish2biz) | **Full Stack** | Оптовая B2B e-commerce платформа с **двусторонней синхронизацией с 1С:Предприятие** (товары/остатки) и лидогенерацией через **AmoCRM**. | `Django` `React` `1C` `AmoCRM` |
+| **🏕 CampMe** | **Full Stack** | Двусторонний маркетплейс бронирования детских лагерей с мощной кастомной админкой/CRM (партнёры, лагеря, брони, статусы). В продакшене, ~500 посетителей в день. **[Живое демо ↗](https://camp-me.ru)** | `Django` `DRF` `React` |
+| **🐟 Fish2Biz — B2B-платформа поставок рыбы** | **Backend lead** | Оптовая e-commerce платформа: каталог синхронизируется из **1С:Предприятие** (категории/товары), заявки уходят в **AmoCRM**, плюс полная админка и клиентская корзина. Заказной проект. | `Django` `React` `1C` `AmoCRM` |
 | [**🍽 Restaurant Reservation API**](https://github.com/imallakov/restaurant-booking) | **Backend** | REST-сервис бронирования столиков с валидацией пересечений, миграциями и тестами. | `FastAPI` `PostgreSQL` `Docker` |
 
 ---
