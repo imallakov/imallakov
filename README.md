@@ -43,8 +43,8 @@ Strong CS fundamentals from competitive programming, combined with ~2.5 years of
 | :--- | :--- | :--- | :--- |
 | [**🏃 EnduranceAI**](https://github.com/imallakov/EnduranceAI) | **Full Stack / ML** | Smart marathon-time prediction & **adaptive training planning**. Ensemble (Ridge + XGBoost) trained on ~499k race records; Strava OAuth2 + webhooks; course profile via Minetti, weather & training-load features. Grew out of my BSc thesis. | `Django` `DRF` `Celery` `React` `XGBoost` |
 | [**🚦 TrafficDetector**](https://github.com/imallakov/TrafficDetectorBackend) | **Backend** | Microservices backend for traffic detection from video. Independent **auth / video / ML / statistics** services, database-per-service, **Kafka** event streaming, fully Dockerized. | `Python` `Microservices` `Kafka` `Docker` |
-| [**🏕 FillCamp Booking System**](https://github.com/imallakov/fillcamp) | **Full Stack** | Two-sided marketplace for booking children's camps with a powerful custom admin/CRM (partners, camps, bookings, statuses). In production. | `Django` `DRF` `React` |
-| [**🐟 Fish2Biz B2B Platform**](https://github.com/imallakov/fish2biz) | **Full Stack** | Wholesale e-commerce platform with **2-way 1C:Enterprise sync** (products/stock) and lead generation via **AmoCRM**. | `Django` `React` `1C` `AmoCRM` |
+| **🏕 CampMe** | **Full Stack** | Two-sided marketplace for booking children's camps with a powerful custom admin/CRM (partners, camps, bookings, statuses). In production, ~500 daily visitors. **[Live demo ↗](https://camp-me.ru)** | `Django` `DRF` `React` |
+| **🐟 Fish2Biz — B2B fish-supply platform** | **Backend lead** | Wholesale e-commerce platform: catalog synced from **1C:Enterprise** (categories/products), orders pushed to **AmoCRM**, plus a full admin panel and client cart. Commissioned client project. | `Django` `React` `1C` `AmoCRM` |
 | [**🍽 Restaurant Reservation API**](https://github.com/imallakov/restaurant-booking) | **Backend** | RESTful reservation service with overlap validation, migrations and tests. | `FastAPI` `PostgreSQL` `Docker` |
 
 ---
